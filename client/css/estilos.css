@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+.ocultar{
+    display: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    background: url(../img/fondo2.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+h1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 10px;
+}
+
+/* Header y footer */
+
+#logo{
+    width: 60px;
+}
+
+header{
+    background-color: rgb(48, 40, 40);
+    min-height: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    top: 0px;
+}
+
+footer{
+    background-color: rgb(48, 40, 40);
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: 50px;
+} 
+
+nav>ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+p{
+    color: white;
+} 
+
+#contenedor-spinner{
+    display: flex;
+    justify-content: center;
+}
+#contenedor-spinner1{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* FORM */
+
+form{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 3vb;
+    background: url(../img/fondoCrud.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.seccion-formulario{
+    display: flex;
+    justify-content: center;
+}
+.filtro-promedio{
+    background-color: rgb(213, 97, 97);
+    width: 80%;
+    padding: 15px;
+    border: 2px solid black;
+}
+.filtrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TABLA */
+
+table{
+    border-collapse: collapse;
+    margin: 10px;
+    
+}
+
+td{
+    text-align: right;
+}
+
+th{
+    text-transform: capitalize;
+}
+
+
+/* ARTICULO */
+
+
+#articulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+}
+
+article{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin: 10px;
+    border: black 3px solid;
+    background: url(../img/casona.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    
+    
+}
